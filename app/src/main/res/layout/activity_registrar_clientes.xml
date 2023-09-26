@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrar_clientes"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar cliente"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etApellidoCliente"
+        android:hint="Apellidos del cliente"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNombreCliente"
+        android:hint="Nombres del cliente"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTelefonoCliente"
+        android:hint="Telèfono"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:inputType="phone"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmailCliente"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDireccionCliente"
+        android:hint="Direccion"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFechaNacimientoCliente"
+        android:hint="Fecha de nacimiento"
+        android:textSize="20dp"
+        android:textAlignment="textEnd"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnRegistrarCliente"
+        android:text="Registrar Cliente"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAbrirBusquedaCli"
+        android:text="Busqueda de Cliente"
+        android:textSize="25dp"
+        />
+
+
+</LinearLayout>

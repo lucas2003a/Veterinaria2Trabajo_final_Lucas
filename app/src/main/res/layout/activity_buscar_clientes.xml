@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registrar_clientes"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar cliente"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/etBuscarIdCliente"
+            android:hint="Ingrese ID"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnBuscarCliente"
+            android:text="Buscar"
+            android:textSize="20dp"
+            android:layout_marginEnd="5dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btnLimpiarCliente"
+            android:text="Limpiar"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBuscarApellidoCliente"
+        android:hint="Apellidos del cliente"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBuscarNombreCliente"
+        android:hint="Nombres del cliente"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBuscarTelefonoCliente"
+        android:hint="Telèfono"
+        android:textSize="20dp"
+        android:inputType="phone"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBuscarEmailCliente"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBuscarDireccionCliente"
+        android:hint="Direccion"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBuscarFechaNacimientoCliente"
+        android:hint="Fecha de nacimiento"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnActualizarCliente"
+        android:text="Actualizar registro"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEliminarCliente"
+        android:text="Eliminar registro"
+        android:textSize="25dp"
+        />
+
+
+</LinearLayout>

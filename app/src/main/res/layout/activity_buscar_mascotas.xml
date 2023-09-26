@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".buscar_mascotas"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar mascotas"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etBuscarMascotaID"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="ingrese ID"
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/btnBuscarMascota"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Buscar"
+            android:textSize="20dp"
+            android:layout_marginEnd="5dp"/>
+
+        <Button
+            android:id="@+id/btnLimpiarMascota"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Limpiar"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBuscarNombreMascota"
+        android:hint="Nombre de la mascota"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBuscarTipoMascota"
+        android:hint="Tipo de mascota"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBuscarRazaMascota"
+        android:hint="Raza"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBuscarPesoMascota"
+        android:hint="Peso"
+        android:textSize="20dp"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBuscarColorMascota"
+        android:hint="Color"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnActualizarMascota"
+        android:text="Actualizar registro"
+        android:textSize="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEliminarMascota"
+        android:text="Elminar registro"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>

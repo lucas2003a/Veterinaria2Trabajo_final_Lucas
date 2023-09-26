@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registrar_mascotas"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos de la Mascota"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNombreMascota"
+        android:hint="Nombre de la mascota"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTipoMascota"
+        android:hint="Tipo de mascota"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etRazaMascota"
+        android:hint="Raza de la mascota"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etPesoMascota"
+        android:hint="Peso de la mascota"
+        android:textSize="20dp"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etColorMascota"
+        android:hint="Color de la mascota"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnRegistrarMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar Mascota"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnAbrirBusquedaMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Busqueda de mascota"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnAbrirListaMascota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Listas de mascota"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>
