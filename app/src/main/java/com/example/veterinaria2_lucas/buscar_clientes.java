@@ -25,6 +25,8 @@ public class buscar_clientes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_buscar_clientes);
 
+        conexion = new ConexionSQLiteHelper(getApplicationContext(),"dbveterinaria",null,1);
+
 
 
         loadUI();

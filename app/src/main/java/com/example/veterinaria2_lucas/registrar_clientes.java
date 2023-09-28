@@ -17,7 +17,7 @@ public class registrar_clientes extends AppCompatActivity {
 
     EditText etApellidoCliente, etNombreCliente, etTelefonoCliente, etEmailCliente, etDireccionCliente,etFechaNacimientoCliente;
 
-    Button btnRegistrarCliente, btnAbrirBusquedaCli;
+    Button btnRegistrarCliente, btnAbrirBusquedaCli, btnAbirListaCliente;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +38,13 @@ public class registrar_clientes extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), buscar_clientes.class));
+            }
+        });
+
+        btnAbirListaCliente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), lista_cliente.class));
             }
         });
     }
@@ -124,6 +131,7 @@ public class registrar_clientes extends AppCompatActivity {
 
         btnRegistrarCliente = findViewById(R.id.btnRegistrarCliente);
         btnAbrirBusquedaCli = findViewById(R.id.btnAbrirBusquedaCli);
+        btnAbirListaCliente = findViewById(R.id.btnAbrirListaCliente);
     }
 
 }

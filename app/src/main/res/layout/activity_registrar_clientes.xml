@@ -88,7 +88,6 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnRegistrarCliente"
         android:text="Registrar Cliente"
-        android:textSize="25dp"
         />
 
     <Button
@@ -96,7 +95,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnAbrirBusquedaCli"
         android:text="Busqueda de Cliente"
-        android:textSize="25dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de clientes"
+        android:id="@+id/btnAbrirListaCliente"
         />
 
 
